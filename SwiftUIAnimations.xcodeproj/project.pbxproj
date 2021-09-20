@@ -11,6 +11,8 @@
 		B311C27726C684A7003C8EE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C27626C684A7003C8EE8 /* ContentView.swift */; };
 		B311C27926C684A8003C8EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B311C27826C684A8003C8EE8 /* Assets.xcassets */; };
 		B311C27C26C684A8003C8EE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B311C27B26C684A8003C8EE8 /* Preview Assets.xcassets */; };
+		B311C28426C68FF0003C8EE8 /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C28326C68FF0003C8EE8 /* BreathingView.swift */; };
+		B346E72026EFAA15004AC27E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346E71F26EFAA15004AC27E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		B311C27826C684A8003C8EE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B311C27B26C684A8003C8EE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B311C27D26C684A8003C8EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B311C28326C68FF0003C8EE8 /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
+		B346E71F26EFAA15004AC27E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				B311C27426C684A7003C8EE8 /* SwiftUIAnimationsApp.swift */,
 				B311C27626C684A7003C8EE8 /* ContentView.swift */,
+				B311C28326C68FF0003C8EE8 /* BreathingView.swift */,
+				B346E71F26EFAA15004AC27E /* HomeView.swift */,
 				B311C27826C684A8003C8EE8 /* Assets.xcassets */,
 				B311C27D26C684A8003C8EE8 /* Info.plist */,
 				B311C27A26C684A8003C8EE8 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B311C27726C684A7003C8EE8 /* ContentView.swift in Sources */,
+				B346E72026EFAA15004AC27E /* HomeView.swift in Sources */,
+				B311C28426C68FF0003C8EE8 /* BreathingView.swift in Sources */,
 				B311C27526C684A7003C8EE8 /* SwiftUIAnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +280,7 @@
 				DEVELOPMENT_TEAM = XD6Q8NU838;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIAnimations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +302,7 @@
 				DEVELOPMENT_TEAM = XD6Q8NU838;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIAnimations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

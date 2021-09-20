@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var rotateBell = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Image(systemName: "bell.fill")
+            .font(.system(size: 125))
+            .rotationEffect(Angle(degrees: rotateBell ? -45 : 45), anchor: .top)
+            .animation(Animation.spring().repeatCount(10))
+            .onAppear {
+                rotateBell.toggle()
+            }
     }
 }
 
